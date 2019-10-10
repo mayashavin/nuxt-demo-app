@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.0",
+  "description": "My outstanding Nuxt.js project",
+  "author": "Maya Shavin",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cloudinary-vue": "file:../cloudinary-vue/cloudinary-vue-1.0.0-beta2.tgz",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
